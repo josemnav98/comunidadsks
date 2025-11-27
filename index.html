@@ -2,41 +2,30 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi Página Simple</title>
+    <title>Comunidad SKS</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
-        header { background: #0077b6; color: white; padding: 20px; text-align: center; }
-        nav { background: #023e8a; padding: 10px; text-align: center; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; }
-        section { padding: 20px; background: white; margin: 20px auto; max-width: 600px; border-radius: 8px; }
-        footer { background: #0077b6; color: white; text-align: center; padding: 10px; position: fixed; width: 100%; bottom: 0; }
+        header { background: #0077b6; color: white; padding: 30px 20px 20px 20px; text-align: center; }
+        .insta-section { background: white; margin: 30px auto; max-width: 500px; border-radius: 8px; padding: 30px 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);}
+        .insta-link { display: flex; flex-direction: column; align-items: center; }
+        .insta-link img { border-radius: 50%; width: 120px; height: 120px; margin-bottom: 20px; }
+        .insta-link a { color: #0077b6; font-size: 1.2em; text-decoration: none; font-weight: bold; }
+        .insta-link a:hover { text-decoration: underline; }
+        .note { color: #555; font-size: 0.95em; margin-top: 20px; text-align: center; }
     </style>
 </head>
 <body>
     <header>
-        <h1>Bienvenido a Mi Página</h1>
-        <p>Una web simple y económica</p>
+        <h1>Comunidad SKS</h1>
     </header>
-    <nav>
-        <a href="#inicio">Inicio</a>
-        <a href="#sobre">Sobre mí</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
-    <section id="inicio">
-        <h2>Inicio</h2>
-        <p>Esta es una página web sencilla creada con HTML y CSS.</p>
+    <section class="insta-section">
+        <div class="insta-link">
+            <img src="https://instagram.fmad3-2.fna.fbcdn.net/v/t51.2885-19/118206661_313432013330370_370370370370370_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fmad3-2.fna.fbcdn.net&_nc_cat=1&_nc_ohc=example" alt="Comunidad SKS Instagram" onerror="this.style.display='none'">
+            <a href="https://instagram.com/comunidadsks" target="_blank">Ver publicaciones en Instagram</a>
+        </div>
+        <div class="note">
+            Para ver el feed completo, haz clic en el enlace. Instagram no permite mostrar el feed completo directamente en la web de forma gratuita.
+        </div>
     </section>
-    <section id="sobre">
-        <h2>Sobre mí</h2>
-        <p>Aquí puedes poner una breve descripción sobre ti o tu negocio.</p>
-    </section>
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Email: tuemail@ejemplo.com</p>
-        <p>Teléfono: 123-456-7890</p>
-    </section>
-    <footer>
-        &copy; 2025 Mi Página Simple
-    </footer>
 </body>
 </html>
