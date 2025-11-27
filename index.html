@@ -1,31 +1,28 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Comunidad SKS</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
-        header { background: #0077b6; color: white; padding: 30px 20px 20px 20px; text-align: center; }
-        .insta-section { background: white; margin: 30px auto; max-width: 500px; border-radius: 8px; padding: 30px 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);}
-        .insta-link { display: flex; flex-direction: column; align-items: center; }
-        .insta-link img { border-radius: 50%; width: 120px; height: 120px; margin-bottom: 20px; }
-        .insta-link a { color: #0077b6; font-size: 1.2em; text-decoration: none; font-weight: bold; }
-        .insta-link a:hover { text-decoration: underline; }
-        .note { color: #555; font-size: 0.95em; margin-top: 20px; text-align: center; }
+        body {
+            background: #fff;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .elfsight-app-8bda3d75-aadd-4de6-a6fd-bcf2d68f121b {
+            width: 100%;
+            max-width: 600px;
+        }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Comunidad SKS</h1>
-    </header>
-    <section class="insta-section">
-        <div class="insta-link">
-            <img src="https://instagram.fmad3-2.fna.fbcdn.net/v/t51.2885-19/118206661_313432013330370_370370370370370_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fmad3-2.fna.fbcdn.net&_nc_cat=1&_nc_ohc=example" alt="Comunidad SKS Instagram" onerror="this.style.display='none'">
-            <a href="https://instagram.com/comunidadsks" target="_blank">Ver publicaciones en Instagram</a>
-        </div>
-        <div class="note">
-            Para ver el feed completo, haz clic en el enlace. Instagram no permite mostrar el feed completo directamente en la web de forma gratuita.
-        </div>
-    </section>
+    <!-- Elfsight Instagram Feed Widget -->
+    <script src="https://elfsightcdn.com/platform.js" async></script>
+    <div class="elfsight-app-8bda3d75-aadd-4de6-a6fd-bcf2d68f121b" data-elfsight-app-lazy></div>
 </body>
 </html>
